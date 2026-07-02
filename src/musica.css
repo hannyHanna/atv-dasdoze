@@ -1,0 +1,134 @@
+body{
+  background: linear-gradient(to right, #ffd5e7, #ffd0ea);
+  font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+}
+
+
+.titulo img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 15px auto;
+  border: 4px solid #da3fee;
+  box-shadow: 0px 4px 12px rgba(235, 135, 165, 0.15);
+}
+.caixa{
+ 
+  width: 450px;
+  background-color: rgb(253, 242, 250);
+  margin: 60px auto;
+  padding: 40px;
+  border-radius: 24px;
+  text-align: center;
+  box-shadow: 0px 8px 25px rgba(0,0,0,0.12);
+  transition: 0.3s;
+}
+
+
+/* Isso faz o card subir um pouquinho quando alguém passa o mouse nele */
+.caixa:hover{
+  transform: translateY(-5px);
+}
+
+
+
+
+h2{
+  background: linear-gradient(to right, #fcb7ce, #ffbcee);
+  color: white;
+  padding: 16px;
+  border-radius: 18px;
+  font-size: 24px;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+}
+
+
+/* foto perfil */
+.titulo img{
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 15px auto;
+
+  /* formato estrela */
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+
+  /* contorno rosa */
+  border: 5px solid #fc8ec3;
+
+  /* espaço do contorno */
+  padding: 6px;
+
+  background-color: #e97474;
+
+  /* sombra suave */
+  box-shadow: 0px 4px 12px rgba(255,182,217,0.4);
+}
+/* nome */
+.titulo h1{
+  margin-top: 15px;
+  color: #222;
+}
+
+
+
+h1{
+  color: #222;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+
+.titulo{
+  font-family: 'Times New Roman', serif;
+  font-weight: bold;
+}
+
+
+p{
+  color: #666;
+  font-size: 15px;
+  line-height: 1.7;
+  margin-top: 10px;
+  padding: 0 8px;
+}
+
+
+
+
+button{
+  background: linear-gradient(to right, #dfa6dc, #ff9ec3);
+  color: white;
+  border: none;
+  padding: 13px 40px;
+  border-radius: 30px;
+  margin-top: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s;
+  box-shadow: 0px 4px 12px rgba(255, 152, 216, 0.3);
+}
+
+
+button:hover{
+  transform: scale(1.05);
+  box-shadow: 0px 6px 18px rgba(255, 141, 204, 0.4);
+}
+
+

@@ -1,0 +1,15 @@
+.cartao {
+  text-align: center;
+  padding: 30px;
+}
+
+.cartao h1 {
+  color: #ff69b4;
+}
+
+.cartao button {
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+}

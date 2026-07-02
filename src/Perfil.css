@@ -1,0 +1,62 @@
+
+body{
+  background-color: #dbadad;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.caixa{
+  background-color: white;
+  width: 500px;
+  margin: 100px auto;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+
+
+
+h2{
+  color: hsl(320, 75%, 74%);
+  font-size: 28px;
+}
+
+
+
+
+h1{
+  color: #333;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+
+
+
+p{
+  background-color: #7b2cbf;
+  color: white;
+  display: inline-block;
+  padding: 12px 25px;
+  border-radius: 10px;
+  margin-top: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+
+
+p:hover{
+  background-color: #472766;
+}
+
+
+
+
+
+
