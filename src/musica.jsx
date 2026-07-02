@@ -6,7 +6,7 @@ function Cabecalho(){
 function Titulo(){
   return (
     <div className="titulo">
-        <img src="./images/transferir.png"/>
+        <img src="./images/transferir.png" alt="musica"/>
         <h1> nome: Oração </h1>
     </div>
  );}
